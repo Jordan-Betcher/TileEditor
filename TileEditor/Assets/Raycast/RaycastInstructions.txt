@@ -1,0 +1,2 @@
+The block being highlighted must have a collider.
+Change the mouse's sprite to a white image of what you want the highlight to look like.
