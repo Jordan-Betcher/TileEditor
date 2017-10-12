@@ -218,47 +218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 111acd89e037a454c95a11a9b9690560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &12358673
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 12358674}
-  - component: {fileID: 12358675}
-  m_Layer: 0
-  m_Name: Keyboard
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &12358674
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 12358673}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -60, y: -26.799988, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1480705803}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &12358675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 12358673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e7d37b5ffb875a429ae3fab64c0ae06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selected: {fileID: 0}
 --- !u!1 &15489814
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,6 +231,7 @@ GameObject:
   - component: {fileID: 15489817}
   - component: {fileID: 15489816}
   - component: {fileID: 15489818}
+  - component: {fileID: 15489820}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -356,6 +316,17 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 15489814}
+--- !u!114 &15489820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15489814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 644cc29c4db4b9d4ca812b5d8ff73691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &66778604 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4712384866498652, guid: f7ec79a5c3eb6c34ba16412af62cc4ba,
@@ -843,7 +814,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 589776336}
-  - {fileID: 12358674}
   - {fileID: 66778604}
   m_Father: {fileID: 0}
   m_RootOrder: 3
